@@ -9,6 +9,7 @@ Variable | Description | Example
 `AD_SERVER_URI`  | URI to the Active Directory server | ldaps://ad.server.com
 `AD_BASEDN` | Active Directory Base DN | ou=Users,dc=example,dc=com
 `META_SUFFIX` | Meta suffix for changing basedn for client | ou=Users,dc=example,dc=com
+`LOG_LEVEL` | Logging level | 7
 
 example test with openldap client
 ```
